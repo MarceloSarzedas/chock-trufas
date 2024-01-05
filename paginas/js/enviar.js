@@ -1,6 +1,6 @@
 const paginal = document.querySelector('.finalizar')
 
-paginal.addEventListener('click', (enviar, receber) => {
+paginal.addEventListener('click', () => {
     function obterInformacoesCarrinho() {
         const carrinho = document.getElementById('cart');
         const itensCarrinho = carrinho.querySelectorAll('.cart-item');
