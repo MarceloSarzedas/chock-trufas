@@ -39,10 +39,10 @@ paginal.addEventListener('click', () => {
         });
 
         // Armazena as informações no localStorage
-        localStorage.setItem('carrinhoInformacoes', JSON.stringify(informacoes));
+        sessionStorage.setItem('carrinhoInformacoes', JSON.stringify(informacoes));
 
         // Redireciona o usuário para a próxima página
-        window.location.href = '/html/pagina.html';
+        window.location.href = '../html/pagina.html';
     }
 
 
