@@ -42,7 +42,7 @@ paginal.addEventListener('click', () => {
         localStorage.setItem('carrinhoInformacoes', JSON.stringify(informacoes));
 
         // Redireciona o usuário para a próxima página
-        window.location.href = '/html/pagina.html';
+        window.location.href = '/paginas/html/pagina.html';
     }
 
 
