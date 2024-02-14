@@ -1,4 +1,5 @@
 
+
 // Recupera as informações do localStorage
 const carrinhoInformacoes = JSON.parse(localStorage.getItem('carrinhoInformacoes'));
 
