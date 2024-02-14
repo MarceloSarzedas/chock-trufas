@@ -6,6 +6,7 @@ const carrinhoInformacoes = JSON.parse(localStorage.getItem('carrinhoInformacoes
 // Verifica se há informações no carrinho
 if (carrinhoInformacoes) {
     const tabelaCorpo = document.getElementById('tabela-corpo');
+    
 
     // Itera sobre as informações e cria as linhas da tabela
     carrinhoInformacoes.forEach(item => {
@@ -23,6 +24,7 @@ if (carrinhoInformacoes) {
     // Exibe a soma total no parágrafo com o id "soma-total"
     document.getElementById('soma-total').textContent = `Total: ${somaTotalFormatada}`;
     document.getElementById('soma-total').textContent += ` (${somaTotalQuantidade} itens)`;
+
 } else {
     console.error('Erro: Não há informações no carrinho.');
 }
